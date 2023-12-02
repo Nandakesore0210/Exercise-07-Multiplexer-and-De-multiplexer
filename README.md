@@ -1,5 +1,9 @@
 # Exercise-07-Multiplexer-and-De-multiplexer
 ### AIM: To implement 4 X1 multiplexer and 1X4 de multiplexer using verilog and validate its outputs
+### Developed by:
+J.Nandakesore
+### Register Number:
+23009689
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
 ### THEORY 
@@ -47,42 +51,60 @@ If the control input changes to AB = 10, then all the gates are restricted excep
  
  
 ### Procedure
-/* write all the steps invloved */
+1.Start the module using module projname().
 
+2.Declare the inputs and outputs along with the select lines according to the multiplexer and demultiplexer.
 
+3.Use wire to assign intermediate outputs.
+
+4.Use and,or and not gates to get the desired output.
+
+5.End the module.
+
+6.Generate RTL realization and timing diagrams.
 
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
 
+4x1 Multiplexer:
 
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/65a3e614-84ce-4e9f-a050-19458aff1c61)
 
+1x4 De-Multiplexer:
 
-
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/b44c26d6-6be6-4620-8082-182ff011abcd)
 
 ### RTL LOGIC  
 
+4x1 Multiplexer:
 
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/c63f30da-2ce7-406d-a337-c91699968615)
 
+1x4 De-Multiplexer:
 
-
-
-
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/57bfc0bc-14f6-472b-8c8c-c706380d309c)
 
 ### TIMING DIGRAMS  
 
+4x1 Multiplexer:
 
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/a6d72c79-942c-4b11-bea7-c2fbfe47b6ec)
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/3aba84cf-6e0d-4f6b-a22a-bbee0ced6cc2)
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/fb6e0882-6c3c-4ef8-9873-de24df6a4cf5)
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/6b66b8cc-3f9d-4374-816e-a409b01b803c)
 
+1x4 De-Multiplexer:
 
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/6ada7049-464e-49a3-b0bb-b96554ec0506)
 
 ### TRUTH TABLE 
 
+4x1 Multiplexer:
 
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/86f8732b-c8b3-4386-9960-58b5cfa569fc)
 
+1x4 De-Multiplexer:
 
+![image](https://github.com/Nandakesore0210/Exercise-07-Multiplexer-and-De-multiplexer/assets/149365088/b08ddf80-2224-4a26-9813-a9a6c4fc13d1)
 
-
-### RESULTS 
+### RESULTS:
+Hence 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
